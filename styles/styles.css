@@ -1,0 +1,26 @@
+* {
+  background-color: rgb(255, 221, 179);
+}
+
+.link {
+  color: blue;
+  font-weight: bold;
+  font-family: serif;
+}
+
+#one {
+  font-family: Helvetica, sans-serif;
+}
+
+#two {
+  font-family: "Times New Roman", sans-serif;
+}
+
+@font-face {
+  font-family: RubikBurned;
+  src: url(./fonts/RubikBurned-Regular.ttf);
+}
+
+#three {
+  font-family: RubikBurned, sans-serif;
+}

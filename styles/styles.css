@@ -1,28 +1,15 @@
 * {
-  background-color: rgb(255, 221, 179);
+  background-color: rgb(243, 255, 244);
 }
 
 .link {
-  color: blue;
+  color: rgb(0, 110, 255);
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-family: serif;
 }
 
-#one {
-  font-family: Helvetica, sans-serif;
-}
-
-#two {
-  font-family: "Times New Roman", sans-serif;
-}
-
-@font-face {
-  font-family: RubikBurned;
-  src: url(./fonts/RubikBurned-Regular.ttf);
-}
-
-#three {
-  font-family: RubikBurned, sans-serif;
+#site-heading {
+  font-family: 'Single Day', sans-serif;
 }
 
 .nig {

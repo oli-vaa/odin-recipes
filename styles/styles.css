@@ -1,21 +1,16 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
   background-color: rgb(243, 255, 244);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .link {
-  color: rgb(0, 110, 255);
+  color: rgb(51, 138, 252);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
-
-#site-heading {
+h1 {
   font-family: 'Single Day', sans-serif;
-}
-
-.nig {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
 }

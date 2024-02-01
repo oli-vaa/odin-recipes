@@ -6,13 +6,27 @@
 body {
   background-color: rgb(243, 255, 244);
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-.link {
-  color: rgb(51, 138, 252);
+.homepage {
+  text-align: center;
+}
+
+.homepage h1 {
+  width: 200px;
+  height: 40px;
+  margin: 100px auto 50px auto;
+  font-family: 'Single Day', sans-serif;
+  color: black;
+}
+
+.homepage a {
+  display: block;
+  width: 350px;
+  height: 40px;
+  margin: 10px auto 0px auto;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-}
-h1 {
-  font-family: 'Single Day', sans-serif;
+  color: rgb(51, 138, 252);
 }

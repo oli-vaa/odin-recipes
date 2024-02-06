@@ -3,100 +3,72 @@
 /* Open Sans */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+body {
+  background-color: rgb(240, 240, 240);
+}
+
 * {
-  background-color: rgb(243, 255, 244);
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  /* border: 1px dotted black; */
   text-decoration: none;
 }
 
-.heading * {
-  height: 40px;
-  margin: 50px auto 50px auto;
+.header-container,
+.content-container,
+.footer-container {
+  display: flex;
+  width: 500px;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+}
+
+.header-container {
+  border: 3px solid rgb(30, 30, 30);
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+.header {
+  margin: auto;
+}
+
+.heading {
+  width: 300px;
   text-align: center;
   font-family: 'Single Day', sans-serif;
-  color: black;
+  font-size: larger;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: pink;
 }
 
-.page-link a {
-  display: block;
-  width: 300px;
-  height: 40px;
-  margin: 10px auto 0px auto;
-  padding: 10px;
-  color: rgb(51, 138, 252);
-  background-color: rgb(206, 236, 208);
+.content-container {
+  justify-content: center;
+}
+
+.content * {
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
+  color: rgb(30, 30, 30);
 }
 
-.homepage-link {
-  display: block;
-  height: 40px;
-  margin: 25px auto 25px auto;
-  padding: 10px;
-  color: rgb(51, 138, 252);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.description {
-  width: 750px;
+.footer-container {
+  height: 50px;
+  border: 3px solid rgb(30, 30, 30);
+  border-radius: 15px;
   margin: 20px auto;
-  padding: 10px 0px 30px 0px;
-  background-color: rgb(206, 236, 208);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.description h3 {
+.footer {
   text-align: center;
+  width: 150px;
+  font-size: small;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(206, 236, 208);
+  color: rgb(30, 30, 30);
 }
 
-.description div {
-  width: 500px;
-  text-align: center;
-  margin: 0px auto;
-  background-color: rgb(206, 236, 208);
-}
-
-.ingredients {
-  width: 750px;
-  margin: 20px auto;
-  padding: 10px 0px 30px 0px;
-  background-color: rgb(206, 236, 208);
-}
-
-.ingredients h3 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: rgb(206, 236, 208);
-}
-
-.ingredients ul,li {
-  width: 500px;
-  margin: 0px auto;
-  background-color: rgb(206, 236, 208);
-}
-
-.steps {
-  width: 750px;
-  margin: 20px auto;
-  padding: 10px 0px 30px 0px;
-  background-color: rgb(206, 236, 208);
-}
-
-.steps h3 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: rgb(206, 236, 208);
-}
-
-.steps ol,li {
-  width: 500px;
-  margin: 0px auto;
-  background-color: rgb(206, 236, 208);
+a:hover {
+  color: pink;
+  background-color: black;
 }

@@ -17,9 +17,13 @@ body {
 .content-container,
 .footer-container {
   display: flex;
-  width: 500px;
   margin: 0px auto;
   /* border: 1px solid red; */
+}
+
+.header-container,
+.footer-container {
+  width: 500px;
 }
 
 .header-container {
@@ -43,6 +47,15 @@ body {
 
 .content-container {
   justify-content: center;
+}
+
+.description,
+.ingredients,
+.steps {
+  flex: 1;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
 }
 
 .content * {
